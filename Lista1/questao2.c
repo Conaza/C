@@ -14,7 +14,6 @@
         printf ("Insira aqui a quantidade de energia gasta em kilowatts:");
         scanf ("%f", &Kw);
 
- 
      Vkw = sm / 7;
      printf ("Cada kilowatt vale: R$ %f\n", Vkw);
     Vap = Kw / 100 * Vkw;
